@@ -5,14 +5,21 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class Day1 {
+	static WebDriver driver;
 	@BeforeSuite
 	public void grandSetup() {
+		System.setProperty("webdriver.chrome.driver", "/home/omutwar/Documents/Selenium_Projects/chromedriver_linux64/chromedriver");
 		System.out.println("Set up ***Suite*** test.");
 	}
 
 	@Test
 	public void webAppLogin() {
+		driver = new ChromeDriver();
+		driver.get("https://www.amazom.com");
+		driver.manage().window().maximize();
 		System.out.println("webAppLogin");
+		
+		driver.quit();
 	}
 
 	@Test(dependsOnMethods = ("webAppLogin"))

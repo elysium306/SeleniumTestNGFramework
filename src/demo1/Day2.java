@@ -8,6 +8,7 @@ public class Day2 {
 
 	@BeforeTest
 	public void setup() {
+		System.setProperty("webdriver.chrome.driver", "")
 		System.out.println("This will set up the test!! ***");
 	}
 
