@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestNG_Demo" class="navigator-link">
+              <span class="suite-name border-passed">TestNG Demo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestNG_Demo" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestNG_Demo" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestNG_Demo" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestNG_Demo" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestNG_Demo" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestNG_Demo" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestNG_Demo" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestNG_Demo" class="hide-methods passed suite-TestNG_Demo"> (hide)</a> <!-- hide-methods passed suite-TestNG_Demo -->
+                      <a href="#" panel-name="suite-TestNG_Demo" class="show-methods passed suite-TestNG_Demo"> (show)</a> <!-- show-methods passed suite-TestNG_Demo -->
+                    </span>
+                    <div class="method-list-content passed suite-TestNG_Demo">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.Day3" class="method navigator-link" hash-for-method="bankLoadApp">bankLoadApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.Day3" class="method navigator-link" hash-for-method="bankLoadApp2">bankLoadApp2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.Day3" class="method navigator-link" hash-for-method="bankLoadApp3">bankLoadApp3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.NewTest" class="method navigator-link" hash-for-method="bankLoadApp4">bankLoadApp4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.NewTest" class="method navigator-link" hash-for-method="bankLoadApp5">bankLoadApp5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.Day1" class="method navigator-link" hash-for-method="bankLogin">bankLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.Day1" class="method navigator-link" hash-for-method="bankLogout">bankLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.NewTest" class="method navigator-link" hash-for-method="f">f</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.Day1" class="method navigator-link" hash-for-method="mobileAppLogin">mobileAppLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.Day1" class="method navigator-link" hash-for-method="tabletAppLogin">tabletAppLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Demo" title="demo1.Day1" class="method navigator-link" hash-for-method="webAppLogin">webAppLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestNG_Demo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestNG_Demo" class="panel TestNG_Demo">
+          <div class="suite-TestNG_Demo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo1.Day1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankLogin">
+                  </a> <!-- bankLogin -->
+                  <span class="method-name">bankLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankLogout">
+                  </a> <!-- bankLogout -->
+                  <span class="method-name">bankLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mobileAppLogin">
+                  </a> <!-- mobileAppLogin -->
+                  <span class="method-name">mobileAppLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tabletAppLogin">
+                  </a> <!-- tabletAppLogin -->
+                  <span class="method-name">tabletAppLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webAppLogin">
+                  </a> <!-- webAppLogin -->
+                  <span class="method-name">webAppLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Demo-class-passed -->
+          <div class="suite-TestNG_Demo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo1.NewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankLoadApp4">
+                  </a> <!-- bankLoadApp4 -->
+                  <span class="method-name">bankLoadApp4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankLoadApp5">
+                  </a> <!-- bankLoadApp5 -->
+                  <span class="method-name">bankLoadApp5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f">
+                  </a> <!-- f -->
+                  <span class="method-name">f</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Demo-class-passed -->
+          <div class="suite-TestNG_Demo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo1.Day3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankLoadApp">
+                  </a> <!-- bankLoadApp -->
+                  <span class="method-name">bankLoadApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankLoadApp2">
+                  </a> <!-- bankLoadApp2 -->
+                  <span class="method-name">bankLoadApp2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bankLoadApp3">
+                  </a> <!-- bankLoadApp3 -->
+                  <span class="method-name">bankLoadApp3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Demo-class-passed -->
+        </div> <!-- panel TestNG_Demo -->
+        <div panel-name="test-xml-TestNG_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/omutwar/eclipse-workspace/TestNGFramework/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestNG Demo&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Web App Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;demo1.Day1&quot;/&gt;
+      &lt;class name=&quot;demo1.Day2&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;teerDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- demo1.Day2 --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Web App Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNG demo Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;demo1.Day3&quot;/&gt;
+      &lt;class name=&quot;demo1.NewTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNG demo Test --&gt;
+&lt;/suite&gt; &lt;!-- TestNG Demo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNG_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNG Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Web App Test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TestNG demo Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNG_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNG Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">bank</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankLoadApp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankLoadApp2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankLoadApp3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankLoadApp4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankLoadApp5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">bankLogout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNG_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNG Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNG_Demo');
+function tableData_TestNG_Demo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tabletAppLogin')
+data.setCell(0, 2, 'demo1.Day1')
+data.setCell(0, 3, 6);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'webAppLogin')
+data.setCell(1, 2, 'demo1.Day1')
+data.setCell(1, 3, 4);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'bankLoadApp3')
+data.setCell(2, 2, 'demo1.Day3')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bankLoadApp4')
+data.setCell(3, 2, 'demo1.NewTest')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'f')
+data.setCell(4, 2, 'demo1.NewTest')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'mobileAppLogin')
+data.setCell(5, 2, 'demo1.Day1')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'bankLogin')
+data.setCell(6, 2, 'demo1.Day1')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'bankLoadApp5')
+data.setCell(7, 2, 'demo1.NewTest')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'bankLoadApp2')
+data.setCell(8, 2, 'demo1.Day3')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'bankLogout')
+data.setCell(9, 2, 'demo1.Day1')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'bankLoadApp')
+data.setCell(10, 2, 'demo1.Day3')
+data.setCell(10, 3, 1);
+window.suiteTableData['TestNG_Demo']= { tableData: data, tableDiv: 'times-div-TestNG_Demo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 ms</span>
+              <div id="times-div-TestNG_Demo">
+              </div> <!-- times-div-TestNG_Demo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNG_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNG Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNG_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">demo1.Day2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">carLoan2</span>
+                <br/>
+                <span class="ignored-method-name">carLoan1</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNG_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo1.Day1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">grandSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo1.Day2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo1.Day1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tabletAppLogin</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webAppLogin</span>
+                <span class="method-start">60 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bankLogin</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bankLogout</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mobileAppLogin</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo1.Day2</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teerDown</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo1.Day3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bankLoadApp</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bankLoadApp2</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bankLoadApp3</span>
+                <span class="method-start">199 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo1.NewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bankLoadApp4</span>
+                <span class="method-start">207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bankLoadApp5</span>
+                <span class="method-start">214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f</span>
+                <span class="method-start">221 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">demo1.Day1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">grandTeerdown</span>
+                <span class="method-start">233 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

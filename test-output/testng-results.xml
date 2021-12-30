@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="13" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-18T00:57:06 PST" name="TestNG Demo" finished-at="2021-12-18T00:57:07 PST" duration-ms="216">
+    <groups>
+      <group name="bank">
+        <method signature="Day1.bankLogin()[pri:0, instance:demo1.Day1@25d250c6]" name="bankLogin" class="demo1.Day1"/>
+        <method signature="Day1.bankLogout()[pri:0, instance:demo1.Day1@25d250c6]" name="bankLogout" class="demo1.Day1"/>
+        <method signature="Day3.bankLoadApp()[pri:0, instance:demo1.Day3@5be6e01c]" name="bankLoadApp" class="demo1.Day3"/>
+        <method signature="Day3.bankLoadApp2()[pri:0, instance:demo1.Day3@5be6e01c]" name="bankLoadApp2" class="demo1.Day3"/>
+        <method signature="Day3.bankLoadApp3()[pri:0, instance:demo1.Day3@5be6e01c]" name="bankLoadApp3" class="demo1.Day3"/>
+        <method signature="NewTest.bankLoadApp4()[pri:0, instance:demo1.NewTest@1c93084c]" name="bankLoadApp4" class="demo1.NewTest"/>
+        <method signature="NewTest.bankLoadApp5()[pri:0, instance:demo1.NewTest@1c93084c]" name="bankLoadApp5" class="demo1.NewTest"/>
+      </group> <!-- bank -->
+    </groups>
+    <test started-at="2021-12-18T00:57:06 PST" name="Web App Test" finished-at="2021-12-18T00:57:06 PST" duration-ms="72">
+      <class name="demo1.Day1">
+        <test-method signature="tabletAppLogin()[pri:0, instance:demo1.Day1@25d250c6]" started-at="2021-12-18T00:57:06 PST" name="tabletAppLogin" finished-at="2021-12-18T00:57:06 PST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabletAppLogin -->
+        <test-method signature="webAppLogin()[pri:0, instance:demo1.Day1@25d250c6]" started-at="2021-12-18T00:57:06 PST" name="webAppLogin" finished-at="2021-12-18T00:57:06 PST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webAppLogin -->
+        <test-method signature="bankLogin()[pri:0, instance:demo1.Day1@25d250c6]" started-at="2021-12-18T00:57:06 PST" name="bankLogin" finished-at="2021-12-18T00:57:06 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankLogin -->
+        <test-method signature="bankLogout()[pri:0, instance:demo1.Day1@25d250c6]" started-at="2021-12-18T00:57:06 PST" name="bankLogout" finished-at="2021-12-18T00:57:06 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankLogout -->
+        <test-method signature="mobileAppLogin()[pri:0, instance:demo1.Day1@25d250c6]" started-at="2021-12-18T00:57:06 PST" name="mobileAppLogin" finished-at="2021-12-18T00:57:06 PST" depends-on-methods="demo1.Day1.webAppLogin" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileAppLogin -->
+      </class> <!-- demo1.Day1 -->
+      <class name="demo1.Day2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demo1.Day2@2f112965]" started-at="2021-12-18T00:57:06 PST" name="setup" finished-at="2021-12-18T00:57:06 PST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teerDown()[pri:0, instance:demo1.Day2@2f112965]" started-at="2021-12-18T00:57:06 PST" name="teerDown" finished-at="2021-12-18T00:57:06 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teerDown -->
+      </class> <!-- demo1.Day2 -->
+    </test> <!-- Web App Test -->
+    <test started-at="2021-12-18T00:57:07 PST" name="TestNG demo Test" finished-at="2021-12-18T00:57:07 PST" duration-ms="42">
+      <class name="demo1.NewTest">
+        <test-method signature="bankLoadApp4()[pri:0, instance:demo1.NewTest@1c93084c]" started-at="2021-12-18T00:57:07 PST" name="bankLoadApp4" finished-at="2021-12-18T00:57:07 PST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankLoadApp4 -->
+        <test-method signature="bankLoadApp5()[pri:0, instance:demo1.NewTest@1c93084c]" started-at="2021-12-18T00:57:07 PST" name="bankLoadApp5" finished-at="2021-12-18T00:57:07 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankLoadApp5 -->
+        <test-method signature="f()[pri:0, instance:demo1.NewTest@1c93084c]" started-at="2021-12-18T00:57:07 PST" name="f" finished-at="2021-12-18T00:57:07 PST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- demo1.NewTest -->
+      <class name="demo1.Day1">
+        <test-method is-config="true" signature="grandSetup()[pri:0, instance:demo1.Day1@25d250c6]" started-at="2021-12-18T00:57:06 PST" name="grandSetup" finished-at="2021-12-18T00:57:06 PST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grandSetup -->
+        <test-method is-config="true" signature="grandTeerdown()[pri:0, instance:demo1.Day1@25d250c6]" started-at="2021-12-18T00:57:07 PST" name="grandTeerdown" finished-at="2021-12-18T00:57:07 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grandTeerdown -->
+      </class> <!-- demo1.Day1 -->
+      <class name="demo1.Day3">
+        <test-method signature="bankLoadApp()[pri:0, instance:demo1.Day3@5be6e01c]" started-at="2021-12-18T00:57:07 PST" name="bankLoadApp" finished-at="2021-12-18T00:57:07 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankLoadApp -->
+        <test-method signature="bankLoadApp2()[pri:0, instance:demo1.Day3@5be6e01c]" started-at="2021-12-18T00:57:07 PST" name="bankLoadApp2" finished-at="2021-12-18T00:57:07 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankLoadApp2 -->
+        <test-method signature="bankLoadApp3()[pri:0, instance:demo1.Day3@5be6e01c]" started-at="2021-12-18T00:57:07 PST" name="bankLoadApp3" finished-at="2021-12-18T00:57:07 PST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankLoadApp3 -->
+      </class> <!-- demo1.Day3 -->
+    </test> <!-- TestNG demo Test -->
+  </suite> <!-- TestNG Demo -->
+</testng-results>
