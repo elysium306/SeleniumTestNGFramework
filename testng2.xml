@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestNG Demo">
+  	<test thread-count="5" name="Web App Test">
+		<packages>
+			<package name="demo1">
+				<exclude name="bank.*"></exclude>
+				<exclude name="car.*"></exclude>
+			</package>
+		</packages>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestNG Demo">
+  	<test thread-count="5" name="Web App Test">
+		<groups>
+		<run>
+			<exclude name="bank"></exclude>
+		</run>
+	</groups>
+	<classes>
+		<class name="demo1.Day1"></class>
+		<class name="demo1.Day2"></class>
+		<class name="demo1.Day3"></class>
+		<class name="demo1.NewTest"></class>
+	</classes>
+	</test>
+</suite> <!-- Suite -->
+
+
+
