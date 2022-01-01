@@ -1,15 +1,17 @@
 package demo1;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class Day1 {
 	static WebDriver driver;
+	
 	@BeforeSuite
 	public void grandSetup() {
-		System.setProperty("webdriver.chrome.driver", "/home/omutwar/Documents/Selenium_Projects/chromedriver_linux64/chromedriver");
-		System.out.println("Set up ***Suite*** test.");
+		System.out.println("This is before test.");
 	}
 
 	@Test
