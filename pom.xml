@@ -10,11 +10,18 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 				<configuration>
-					<release>15</release>
+					<release>8</release>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+
+	<properties>
+		<java.version>1.11</java.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+	</properties>
+
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
@@ -46,6 +53,14 @@
 			<version>7.4.0</version>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+
 
 	</dependencies>
 

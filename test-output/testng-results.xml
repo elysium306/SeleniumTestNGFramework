@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-01T14:03:05 PST" name="Default suite" finished-at="2022-01-01T14:04:54 PST" duration-ms="109361">
+  <suite started-at="2022-01-01T20:53:37 PST" name="Default suite" finished-at="2022-01-01T20:53:37 PST" duration-ms="65">
     <groups>
     </groups>
-    <test started-at="2022-01-01T14:03:05 PST" name="Default test" finished-at="2022-01-01T14:04:54 PST" duration-ms="109361">
-      <class name="seleniumTestNGFramework.seleniumGrid.GridTest1">
-        <test-method signature="test1()[pri:0, instance:seleniumTestNGFramework.seleniumGrid.GridTest1@233fe9b6]" started-at="2022-01-01T14:03:05 PST" name="test1" finished-at="2022-01-01T14:03:10 PST" duration-ms="5194" status="PASS">
+    <test started-at="2022-01-01T20:53:37 PST" name="Default test" finished-at="2022-01-01T20:53:37 PST" duration-ms="65">
+      <class name="amazonHP.AmazonTest1">
+        <test-method signature="test1()[pri:0, instance:amazonHP.AmazonTest1@2ea227af]" started-at="2022-01-01T20:53:37 PST" name="test1" finished-at="2022-01-01T20:53:37 PST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:seleniumTestNGFramework.seleniumGrid.GridTest1@233fe9b6]" started-at="2022-01-01T14:03:10 PST" name="test2" finished-at="2022-01-01T14:03:25 PST" duration-ms="15205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:seleniumTestNGFramework.seleniumGrid.GridTest1@233fe9b6]" started-at="2022-01-01T14:03:25 PST" name="test3" finished-at="2022-01-01T14:04:43 PST" duration-ms="78258" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method signature="test4()[pri:0, instance:seleniumTestNGFramework.seleniumGrid.GridTest1@233fe9b6]" started-at="2022-01-01T14:04:43 PST" name="test4" finished-at="2022-01-01T14:04:54 PST" duration-ms="10653" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-      </class> <!-- seleniumTestNGFramework.seleniumGrid.GridTest1 -->
+      </class> <!-- amazonHP.AmazonTest1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,4 +1,4 @@
-package amazonHP;
+package selenium4Demo;
 
 import static org.openqa.selenium.support.locators.RelativeLocator.*;
 
@@ -11,13 +11,13 @@ public class RelativeLoc {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/omutwar/Documents/Selenium_Projects/chromedriver");
 
 		WebDriver driver = new ChromeDriver();
 
-		driver.get("https://rahulshettyacademy.com/angularpractice/");
+		driver.get("https://www.amazon.com");
 
-		WebElement nameEditBox = driver.findElement(By.cssSelector("[name='name']"));
+		WebElement nameEditBox = driver.findElement(By.cssSelector("[name=\"field-keywords\"]"));
 
 		System.out.println(driver.findElement(with(By.tagName("label")).above(nameEditBox)).getText());
 
@@ -34,6 +34,8 @@ public class RelativeLoc {
 		WebElement rdb = driver.findElement(By.id("inlineRadio1"));
 
 		System.out.println(driver.findElement(with(By.tagName("label")).toRightOf(rdb)).getText());
+		
+		
 
 	}
 
