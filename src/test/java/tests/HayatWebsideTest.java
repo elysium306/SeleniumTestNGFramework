@@ -1,4 +1,4 @@
-package selenium4Demo;
+package tests;
 
 import java.util.List;
 
