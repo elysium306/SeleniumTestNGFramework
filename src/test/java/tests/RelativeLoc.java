@@ -1,4 +1,4 @@
-package selenium4Demo;
+package tests;
 
 import static org.openqa.selenium.support.locators.RelativeLocator.*;
 
