@@ -1,10 +1,9 @@
-package pages;
+package test.java.pages;
 
 import org.openqa.selenium.WebDriver;
 
 public class Base {
 	
-	WebDriver driver;
+	protected WebDriver driver;
 	
-
 }

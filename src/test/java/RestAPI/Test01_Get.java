@@ -1,4 +1,4 @@
-package Rest_API;
+package RestAPI;
 
 import org.testng.annotations.Test;
 

@@ -12,7 +12,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 				<configuration>
-					<release>16</release>
+					<release>17</release>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -26,9 +26,8 @@
 		<testng>7.8.0</testng>
 		<commons-io>2.13.0</commons-io>
 		<selenium-java>4.11.0</selenium-java>
-		<rest-assured>5.0.1</rest-assured>
+		<rest-assured>5.3.1</rest-assured>
 	</properties>
-
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->

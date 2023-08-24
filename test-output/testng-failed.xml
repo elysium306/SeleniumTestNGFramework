@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium4Demo.HayatWebsideTest">
+      <class name="RestAPI.SetupRestAssured">
         <methods>
-          <include name="numberOFProspects"/>
-          <include name="setup"/>
-          <include name="teardown"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- selenium4Demo.HayatWebsideTest -->
+      </class> <!-- RestAPI.SetupRestAssured -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

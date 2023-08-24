@@ -1,9 +1,9 @@
-package pages;
+package test.java.pages;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class AmazonTest1 {
+public class AmazonHomePageTest {
 	
 	@Test
 	void test1() {
