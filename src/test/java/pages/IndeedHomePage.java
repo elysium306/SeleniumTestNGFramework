@@ -4,23 +4,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import utils.DriverFactory;
+import utils.Driver;
 
-public class IndeedHomePage extends Base {
-	
+public class IndeedHomePage {
+
 	public IndeedHomePage() {
-		PageFactory.initElements(DriverFactory.getDriver(), this);
+		PageFactory.initElements(Driver.getDriver(), this);
 	}
-	
-	@FindBy(id="")
+
+	@FindBy(id = "")
 	WebElement whatField;
-	
-	@FindBy(id="text-input-where")
+
+	@FindBy(id = "text-input-where")
 	WebElement whereField;
-	
+
 	@FindBy(css = "")
 	WebElement searchButton;
-	
+
 	@FindBy(linkText = "Post your resume")
 	WebElement postYourResume;
 

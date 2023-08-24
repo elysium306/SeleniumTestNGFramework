@@ -10,7 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class HayatWebsideTest {
+public class HayatWebsiteTests {
 	
 	static WebDriver driver;
 	static String url = "https://matrix.abor.com/Matrix/Public/Portal.aspx?L=1&k=2563454X5K54&p=AE-1827960-294#1";
