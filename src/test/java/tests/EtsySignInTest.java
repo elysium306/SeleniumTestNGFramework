@@ -17,6 +17,7 @@ public class EtsySignInTest {
 		Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		EtsyHomePage etsyHomePage = new EtsyHomePage();
+		etsyHomePage.artCollections.click();
 		
 	}
 }
