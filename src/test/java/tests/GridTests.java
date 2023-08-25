@@ -7,9 +7,27 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class GridTests {
+	
+	
+	@BeforeTest
+	void setup() {
+		System.out.println("Hello");
+	}
+	
+	@Test(alwaysRun = true, priority = 1)
+	void test5() {
+		System.out.println("This is test 5");
+	}
+	
+	
+	@Test
+	void test6() {
+		System.out.println("This is just a place holder method.");
+	}
 	
 	@Test
 	void test1(){

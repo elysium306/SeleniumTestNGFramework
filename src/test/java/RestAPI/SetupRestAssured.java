@@ -34,5 +34,7 @@ public class SetupRestAssured {
 			.when().post("/api/users")
 				.then().assertThat().statusCode(201);
 	}
+	
+
 
 }
