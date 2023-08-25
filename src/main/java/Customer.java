@@ -1,6 +1,7 @@
 package main.java;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Customer implements CustomerDao {
 	
@@ -8,7 +9,7 @@ public class Customer implements CustomerDao {
 	private String name;
 	private String city;
 	private String email;
-	private String phone;
+	private String phone;  // FIXit: come back to this. This is for MyMatis
 
 	@Override
 	public List<Customer> getAllCustomers() {

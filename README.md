@@ -1,7 +1,7 @@
 # Selenium TestNG Framework
 
 
-## To remove the `remote.origin.url` and `remote.origin.fetch` configurations from your Git repository, you can use the `--unset` option of the `git config` command. Here's how you can do it:
+### To remove the `remote.origin.url` and `remote.origin.fetch` configurations from your Git repository, you can use the `--unset` option of the `git config` command. Here's how you can do it:
 
 ```bash
 git config --unset remote.origin.url
