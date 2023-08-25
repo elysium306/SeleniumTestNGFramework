@@ -9,7 +9,7 @@ public class DataReader {
 
 	static {
 		try {
-			File file = new File("./src/test/resources/testdata/env.properties");
+			File file = new File("./src/test/resources/testdata/variables.properties");
 			FileInputStream input = new FileInputStream(file);
 			property = new Properties();
 			property.load(input);
